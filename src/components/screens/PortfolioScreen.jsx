@@ -50,15 +50,18 @@ const PortfolioScreen = () => {
       repoUrl: 'https://github.com/pablotejedor/heroes-app',
       deployUrl: null,
       img: 'https://i.ibb.co/PTZHsfr/Heroes-Team-min.png',
-      stack: 'ReactJs, Formik, Axios, Bootstrap 5, react-router-dom, react-tooltip',
+      stack:
+        'ReactJs, Formik, Axios, Bootstrap 5, react-router-dom, react-tooltip',
     },
     {
       name: 'SomosMás NGO web',
-      description: 'Project made with other devs, using agile methodologies (scrum)',
+      description:
+        'Project made with other devs, using agile methodologies (scrum)',
       repoUrl: 'https://github.com/pablotejedor/OT-92-Client',
       deployUrl: null,
       img: 'https://i.ibb.co/LNNpdFS/Alkemy-min.png',
-      stack: 'ReactJs, Bootstrap, Formik, Yup, Redux-toolkit, react-router-dom, Sass, MercadoPago, Leaflet',
+      stack:
+        'ReactJs, Bootstrap, Formik, Yup, Redux-toolkit, react-router-dom, Sass, MercadoPago, Leaflet',
     },
   ];
 
@@ -76,7 +79,7 @@ const PortfolioScreen = () => {
         <Text fontSize={'xx-large'} p={10}>
           Portfolio
         </Text>
-        <Wrap justify={'center'} spacing={12}>
+        <Wrap justify={'center'} spacing={12} m={0}>
           {projects.map((project, i) => (
             <Card
               key={i}

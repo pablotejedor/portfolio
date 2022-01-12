@@ -1,8 +1,8 @@
 import React from 'react';
 import { ColorModeSwitcher } from '../ColorModeSwitcher';
-import { Stack, Text } from '@chakra-ui/react';
+import { Icon, Stack, Text } from '@chakra-ui/react';
 import { Link, useLocation } from 'react-router-dom';
-
+import { FaReact } from 'react-icons/fa';
 const NavBar = () => {
   const { pathname } = useLocation();
 
@@ -10,7 +10,6 @@ const NavBar = () => {
     <Stack
       direction={['column', 'row']}
       bg={'teal'}
-      // height={['20vh' ,'17vh']}
       alignItems={'center'}
       justifyContent={'space-between'}
       p={[6, 10]}
@@ -20,7 +19,10 @@ const NavBar = () => {
       w={'100vw'}
     >
       <Link to={'/'}>
-        <Text _hover={{ color: 'teal.900' }}>PABLO A. TEJEDOR</Text>
+        <Stack direction={'row'} _hover={{ color: 'teal.900' }} alignItems={'center'}>
+          <Icon as={FaReact} w={12} h={12}/>
+          <Text>PABLO A. TEJEDOR</Text>
+        </Stack>
       </Link>
       <Stack
         direction={['column', 'row']}
