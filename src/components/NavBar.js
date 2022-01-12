@@ -13,16 +13,21 @@ const NavBar = () => {
       // height={['20vh' ,'17vh']}
       alignItems={'center'}
       justifyContent={'space-between'}
-      p={10}
+      p={[6, 10]}
       color={'white'}
-      fontSize={['larger','xx-large']}
+      fontSize={['larger', 'xx-large']}
       fontWeight={'bold'}
       w={'100vw'}
     >
       <Link to={'/'}>
         <Text _hover={{ color: 'teal.900' }}>PABLO A. TEJEDOR</Text>
       </Link>
-      <Stack direction={'row'} alignItems={'center'} spacing={12} p={6}>
+      <Stack
+        direction={['column', 'row']}
+        alignItems={'center'}
+        spacing={[6, 12]}
+        p={6}
+      >
         <Link to={'/'}>
           <Text
             color={pathname === '/' && 'teal.900'}
