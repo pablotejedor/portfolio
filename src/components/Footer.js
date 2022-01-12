@@ -16,10 +16,10 @@ const Footer = () => {
     >
       <Text>Get in touch:</Text>
       <Stack direction={'row'} spacing={8}>
-        <a href="https://www.linkedin.com/in/pablotejedor/" target="_blank">
+        <a href="https://www.linkedin.com/in/pablotejedor/" target="_blank" rel="noreferrer">
           <Icon as={BsLinkedin} w={12} h={12} _hover={hoverColor} />
         </a>
-        <a href="https://github.com/pablotejedor" target="_blank">
+        <a href="https://github.com/pablotejedor" target="_blank" rel="noreferrer">
           <Icon as={BsGithub} w={12} h={12} _hover={hoverColor} />
         </a>
         <a href="mailto:pablotejedor95@gmail.com">

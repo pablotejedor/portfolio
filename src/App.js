@@ -1,8 +1,8 @@
 import React from 'react';
-import { ChakraProvider, Container, Stack, Text } from '@chakra-ui/react';
+import { ChakraProvider, Container, Stack } from '@chakra-ui/react';
 import theme from './theme';
 import NavBar from './components/NavBar';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import PortfolioScreen from './components/screens/PortfolioScreen';
 import AboutMeScreen from './components/screens/AboutMeScreen';
 import Footer from './components/Footer';
@@ -15,8 +15,9 @@ function App() {
           <BrowserRouter>
             <NavBar />
             <Routes>
-              <Route path={'/'} element={<PortfolioScreen />} />
-              <Route path={'/about'} element={<AboutMeScreen />} />
+              <Route exact path={'/'} element={<PortfolioScreen />} />
+              <Route exact path={'/about'} element={<AboutMeScreen />} />
+              <Route path="*" element={<Navigate to="/" />} />
             </Routes>
             <Footer />
           </BrowserRouter>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { Stack, Text, Wrap, WrapItem } from '@chakra-ui/react';
+import { Stack, Text, Wrap } from '@chakra-ui/react';
 import Card from '../Card';
 const PortfolioScreen = () => {
   const projects = [

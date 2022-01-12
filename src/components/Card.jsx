@@ -60,18 +60,24 @@ export default function Card({
             src={img}
           />
         </Box>
-        <Stack pt={10} align={'center'} textAlign={'center'} h={'50vh'} justifyContent={'space-between'}>
+        <Stack
+          pt={10}
+          align={'center'}
+          textAlign={'center'}
+          h={'50vh'}
+          justifyContent={'space-between'}
+        >
           <Text fontSize={'xl'} fontWeight={'bold'}>
             {name}
           </Text>
           <Text fontSize={'large'}>{description}</Text>
           <Text>Tech Stack & Tools: {stack}</Text>
           <Stack direction={'row'} spacing={8}>
-            <a href={repoUrl} target="_blank">
+            <a href={repoUrl} target="_blank" rel="noreferrer">
               <Button>See repository</Button>
             </a>
             {deployUrl && (
-              <a href={deployUrl} target="_blank">
+              <a href={deployUrl} target="_blank" rel="noreferrer">
                 <Button>See proyect</Button>
               </a>
             )}

@@ -24,7 +24,7 @@ const NavBar = () => {
       <Stack direction={'row'} alignItems={'center'} spacing={12} p={6}>
         <Link to={'/'}>
           <Text
-            color={pathname == '/' && 'teal.900'}
+            color={pathname === '/' && 'teal.900'}
             _hover={{ color: 'teal.900' }}
           >
             PORTFOLIO
@@ -32,7 +32,7 @@ const NavBar = () => {
         </Link>
         <Link to={'/about'}>
           <Text
-            color={pathname == '/about' && 'teal.900'}
+            color={pathname === '/about' && 'teal.900'}
             _hover={{ color: 'teal.900' }}
           >
             ABOUT ME
