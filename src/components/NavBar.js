@@ -10,10 +10,10 @@ const NavBar = () => {
     <Stack
       direction={['column', 'row']}
       bg={'teal'}
-      height={['20vh' ,'17vh']}
+      // height={['20vh' ,'17vh']}
       alignItems={'center'}
       justifyContent={'space-between'}
-      p={12}
+      p={10}
       color={'white'}
       fontSize={['larger','xx-large']}
       fontWeight={'bold'}

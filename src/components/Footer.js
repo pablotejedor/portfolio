@@ -7,13 +7,14 @@ const Footer = () => {
   return (
     <Stack
       bg={'teal'}
-      height={['15vh','30vh']}
+      // height={['15vh','30vh']}
       justifyContent={'center'}
       alignItems={'center'}
       fontSize={'xl'}
       spacing={6}
       color={'white'}
       w={'100vw'}
+      p={12}
     >
       <Text>Get in touch:</Text>
       <Stack direction={'row'} spacing={8}>
