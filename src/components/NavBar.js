@@ -8,15 +8,16 @@ const NavBar = () => {
 
   return (
     <Stack
-      direction={'row'}
+      direction={['column', 'row']}
       bg={'teal'}
-      height={'17vh'}
+      height={['20vh' ,'17vh']}
       alignItems={'center'}
       justifyContent={'space-between'}
       p={12}
       color={'white'}
-      fontSize={'xx-large'}
+      fontSize={['larger','xx-large']}
       fontWeight={'bold'}
+      w={'100vw'}
     >
       <Link to={'/'}>
         <Text _hover={{ color: 'teal.900' }}>PABLO A. TEJEDOR</Text>

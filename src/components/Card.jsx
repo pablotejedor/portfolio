@@ -64,7 +64,7 @@ export default function Card({
           pt={10}
           align={'center'}
           textAlign={'center'}
-          h={'50vh'}
+          h={'400px'}
           justifyContent={'space-between'}
         >
           <Text fontSize={'xl'} fontWeight={'bold'}>
