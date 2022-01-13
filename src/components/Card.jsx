@@ -78,7 +78,7 @@ export default function Card({
             </a>
             {deployUrl && (
               <a href={deployUrl} target="_blank" rel="noreferrer">
-                <Button>See proyect</Button>
+                <Button>See project</Button>
               </a>
             )}
           </Stack>

@@ -26,14 +26,13 @@ const AboutMeScreen = () => {
         <Text fontSize={'lg'}>
           Hello there! I'm Pablo, React FrontEnd dev from Rosario, Argentina.
           {<br />}
-          The adjective that fit me the most is curious. Due of that, i keep
-          myself always learning new things. In my free time i enjoy playing
-          videogames like the soulsborne saga, reading about history (WW I & II,
-          Greek and Roman history, and many many other things), and cooking.
-          {<br />}
-          I came across with programming during the first covid lockdown
-          and since this moment, i realized that is my passion. I literally
-          thought: 'Where were you been all my life?'
+          The adjective that fits me the best is "curious". Because of that, I'm
+          always learning new things. In my free time I enjoy playing videogames
+          (Soulsborne saga), reading history (WW I&II, Greek, Roman, and many
+          others) and cooking.
+          {<br />}I came across programming during the begining of the covid
+          lockdown, and from that moment on I realized that this is my passion.
+          I literally thought: "Where've you been all my life?"
           {<br />}
           Do you like my projects? Are you a recruiter? You can get in touch
           with me via Linkedin, Github or Gmail. Links in the footer. See you!
