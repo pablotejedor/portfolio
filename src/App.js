@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Container maxWidth={'100vw'} p={0}>
+      {/* <Container maxWidth={'100vw'} p={0}> */}
         <Stack>
           <BrowserRouter>
             <NavBar />
@@ -22,7 +22,7 @@ function App() {
             <Footer />
           </BrowserRouter>
         </Stack>
-      </Container>
+      {/* </Container> */}
     </ChakraProvider>
   );
 }

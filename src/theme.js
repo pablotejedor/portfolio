@@ -10,6 +10,7 @@ export default extendTheme({
     global: {
       '#root': {
         'fontFamily': 'Bebas Neue',
+        'overflowX': 'hidden'
       },
     },
   },

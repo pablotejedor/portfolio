@@ -5,7 +5,7 @@ const AboutMeScreen = () => {
   return (
     <AnimatePresence>
       <Stack
-        direction={'row'}
+        direction={['column', 'row']}
         alignItems={'center'}
         spacing={12}
         //animacion
@@ -24,13 +24,19 @@ const AboutMeScreen = () => {
           boxSize={'300px'}
         />
         <Text fontSize={'lg'}>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
+          Hello there! I'm Pablo, React FrontEnd dev from Rosario, Argentina.
+          {<br />}
+          The adjective that fit me the most is curious. Due of that, i keep
+          myself always learning new things. In my free time i enjoy playing
+          videogames like the soulsborne saga, reading about history (WW I & II,
+          Greek and Roman history, and many many other things), and cooking.
+          {<br />}
+          I came across with programming during the first covid lockdown
+          and since this moment, i realized that is my passion. I literally
+          thought: 'Where were you been all my life?'
+          {<br />}
+          Do you like my projects? Are you a recruiter? You can get in touch
+          with me via Linkedin, Github or Gmail. Links in the footer. See you!
         </Text>
       </Stack>
     </AnimatePresence>
