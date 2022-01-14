@@ -25,9 +25,11 @@ const NavBar = () => {
         </Stack>
       </Link>
       <Stack
-        direction={['column', 'row']}
+        // direction={['column', 'row']}
+        direction={'row'}
         alignItems={'center'}
-        spacing={[6, 12]}
+        // spacing={[6, 12]}
+        spacing={12}
         p={6}
       >
         <Link to={'/'}>
