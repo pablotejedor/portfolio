@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <Stack
       direction={['column', 'row']}
-      bg={'teal'}
+      bg={'cyan.700'}
       alignItems={'center'}
       justifyContent={'space-between'}
       p={[6, 10]}

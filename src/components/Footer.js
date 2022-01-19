@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <Stack
-      bg={'teal'}
+      bg={'cyan.700'}
       justifyContent={'center'}
       alignItems={'center'}
       fontSize={'xl'}
