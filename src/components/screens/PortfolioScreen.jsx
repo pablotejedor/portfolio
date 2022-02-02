@@ -48,7 +48,7 @@ const PortfolioScreen = () => {
       name: 'Heroes Team',
       description: 'Challenge made for Alkemy',
       repoUrl: 'https://github.com/pablotejedor/heroes-app',
-      deployUrl: null,
+      deployUrl: 'https://heroes-team-deploy.vercel.app/',
       img: 'https://i.ibb.co/PTZHsfr/Heroes-Team-min.png',
       stack:
         'ReactJs, Formik, Axios, Bootstrap 5, react-router-dom, react-tooltip',
