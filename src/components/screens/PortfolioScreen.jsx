@@ -5,12 +5,30 @@ import Card from '../Card';
 const PortfolioScreen = () => {
   const projects = [
     {
+      name: 'e-Commerce',
+      description: `e-Commerce created as part of Aerolab's coding challenge`,
+      repoUrl: 'https://github.com/pablotejedor/aerolab-challenge',
+      deployUrl: 'https://aerolab-challenge-pablotejedor.vercel.app/',
+      img: 'https://i.ibb.co/4Zj3m07/ecommerce-min.png',
+      stack: 'ReactJs, Chakra-ui, framer-motion, Axios',
+    },
+
+    {
       name: 'Twitter Clone',
       description: 'Twitter Clone made with Chakra-ui',
       repoUrl: 'https://github.com/pablotejedor/twitter-clone',
       deployUrl: 'https://twitter-clone-kohl-eight.vercel.app/',
       img: 'https://i.ibb.co/RvPNcMp/Twitter-Clone-min.png',
       stack: 'ReactJs, Chakra-ui, react-router-dom, react-icons',
+    },
+    {
+      name: 'Heroes Team',
+      description: 'Challenge made for Alkemy',
+      repoUrl: 'https://github.com/pablotejedor/heroes-app',
+      deployUrl: 'https://heroes-team-deploy.vercel.app/',
+      img: 'https://i.ibb.co/PTZHsfr/Heroes-Team-min.png',
+      stack:
+        'ReactJs, Formik, Axios, Bootstrap 5, react-router-dom, react-tooltip',
     },
     {
       name: 'Pokedex',
@@ -30,7 +48,7 @@ const PortfolioScreen = () => {
     },
     {
       name: 'Gif Expert',
-      description: 'App made using the Giphy API',
+      description: 'App made using the Giphy API. This was my very first React project.',
       repoUrl: 'https://github.com/pablotejedor/gif-expert',
       deployUrl: 'https://gif-expert-five.vercel.app/',
       img: 'https://i.ibb.co/fS876Dm/Gif-Expert-min.png',
@@ -44,15 +62,7 @@ const PortfolioScreen = () => {
       img: 'https://i.ibb.co/s9SFkws/Dices-App-min.png',
       stack: 'Vanilla Javascript, Vanilla Css',
     },
-    {
-      name: 'Heroes Team',
-      description: 'Challenge made for Alkemy',
-      repoUrl: 'https://github.com/pablotejedor/heroes-app',
-      deployUrl: 'https://heroes-team-deploy.vercel.app/',
-      img: 'https://i.ibb.co/PTZHsfr/Heroes-Team-min.png',
-      stack:
-        'ReactJs, Formik, Axios, Bootstrap 5, react-router-dom, react-tooltip',
-    },
+
     {
       name: 'SomosMás NGO web',
       description:
@@ -62,6 +72,16 @@ const PortfolioScreen = () => {
       img: 'https://i.ibb.co/LNNpdFS/Alkemy-min.png',
       stack:
         'ReactJs, Bootstrap, Formik, Yup, Redux-toolkit, react-router-dom, Sass, MercadoPago, Leaflet',
+    },
+    {
+      name: 'Portfolio',
+      description:
+        'My personal portfolio. Landing page where i show some of my projects.',
+      repoUrl: 'https://github.com/pablotejedor/portfolio',
+      deployUrl: 'https://portfolio-pablotejedor.vercel.app/',
+      img: 'https://i.ibb.co/brrPJNz/portfolio-min.png',
+      stack:
+        'Chakra-ui, react-router-dom',
     },
   ];
 
