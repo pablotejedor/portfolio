@@ -7,7 +7,7 @@ import {
   Image,
   Button,
 } from '@chakra-ui/react';
-
+import { AnimatePresence, motion } from 'framer-motion';
 export default function Card({
   name,
   description,
@@ -19,6 +19,8 @@ export default function Card({
   return (
     <Center py={12}>
       <Box
+        as={motion.div}
+        whileHover={{ scale: 1.05 }}
         role={'group'}
         p={6}
         maxW={'330px'}
@@ -74,11 +76,11 @@ export default function Card({
           <Text>Tech Stack & Tools: {stack}</Text>
           <Stack direction={'row'} spacing={8}>
             <a href={repoUrl} target="_blank" rel="noreferrer">
-              <Button>See repository</Button>
+              <Button bg="cyan.700">See repository</Button>
             </a>
             {deployUrl && (
               <a href={deployUrl} target="_blank" rel="noreferrer">
-                <Button>See project</Button>
+                <Button bg="cyan.700">See project</Button>
               </a>
             )}
           </Stack>
