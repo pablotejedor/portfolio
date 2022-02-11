@@ -7,7 +7,7 @@ import {
   Image,
   Button,
 } from '@chakra-ui/react';
-import { AnimatePresence, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 export default function Card({
   name,
   description,
