@@ -5,6 +5,15 @@ import Card from '../Card';
 const PortfolioScreen = () => {
   const projects = [
     {
+      name: 'CRUD',
+      description: 'Responsive web app so you can create, recover, edit and delete projects.',
+      repoUrl: 'https://github.com/pablotejedor/estoes-challenge',
+      deployUrl: 'https://estoes-challenge-pablotejedor.vercel.app/',
+      img: 'https://i.ibb.co/hfSY42v/crud-min.png',
+      stack: 'ReactJs, Chakra-ui, react-router-dom, formik',
+    }
+    ,
+    {
       name: 'e-Commerce',
       description: `e-Commerce created as part of Aerolab's coding challenge`,
       repoUrl: 'https://github.com/pablotejedor/aerolab-challenge',
