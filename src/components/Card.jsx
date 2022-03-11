@@ -16,6 +16,8 @@ export default function Card({
   img,
   stack,
 }) {
+  const textColor = useColorModeValue('#4A5568', '#A0AEC0');
+
   return (
     <Center py={12}>
       <Box
@@ -25,7 +27,7 @@ export default function Card({
         p={6}
         maxW={'330px'}
         w={'full'}
-        bg={useColorModeValue('white', 'gray.700')}
+        bg={useColorModeValue('#EDF2F7', 'gray.800')}
         boxShadow={'2xl'}
         rounded={'lg'}
         pos={'relative'}
@@ -66,14 +68,18 @@ export default function Card({
           pt={10}
           align={'center'}
           textAlign={'center'}
-          h={'400px'}
+          h={'250px'}
           justifyContent={'space-between'}
         >
           <Text fontSize={'xl'} fontWeight={'bold'}>
             {name}
           </Text>
-          <Text fontSize={'large'}>{description}</Text>
-          <Text>Tech Stack & Tools: {stack}</Text>
+          <Text fontSize={'sm'} color={textColor}>
+            {description}
+          </Text>
+          <Text fontSize={'sm'} color={textColor}>
+            Tech Stack & Tools: {stack}
+          </Text>
           <Stack direction={'row'} spacing={8}>
             <a href={repoUrl} target="_blank" rel="noreferrer">
               <Button bg="cyan.700">See repository</Button>

@@ -12,7 +12,9 @@ const NavBar = () => {
       bg={'cyan.700'}
       alignItems={'center'}
       justifyContent={'space-between'}
-      p={[6, 10]}
+      // p={[6, 10]}
+      px={6}
+      py={2}
       color={'white'}
       fontSize={['larger', 'xx-large']}
       fontWeight={'bold'}

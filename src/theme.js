@@ -5,12 +5,15 @@ export default extendTheme({
     initialColorMode: 'dark',
     useSystemColorMode: false,
   },
-  
+
   styles: {
     global: {
+      html: {
+        scrollBehavior: 'smooth',
+      },
       '#root': {
-        'fontFamily': 'Bebas Neue',
-        'overflowX': 'hidden'
+        fontFamily: 'Bebas Neue',
+        overflowX: 'hidden',
       },
     },
   },

@@ -106,7 +106,7 @@ const PortfolioScreen = () => {
         alignItems={'center'}
       >
         <Text fontSize={'xx-large'} p={10}>
-          Portfolio
+          Some of my projects:
         </Text>
         <Wrap justify={'center'} spacing={12} m={0}>
           {projects.map((project, i) => (
