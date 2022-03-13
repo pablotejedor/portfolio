@@ -56,13 +56,15 @@ export default function Card({
             },
           }}
         >
-          <Image
-            rounded={'lg'}
-            height={230}
-            width={282}
-            objectFit={'cover'}
-            src={img}
-          />
+          <a href={deployUrl} target="_blank" rel="noreferrer">
+            <Image
+              rounded={'lg'}
+              height={230}
+              width={282}
+              objectFit={'cover'}
+              src={img}
+            />
+          </a>
         </Box>
         <Stack
           pt={10}
